@@ -1,16 +1,15 @@
-
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<HTML>
-<HEAD>
- <META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
- <META name="description" content="Anonymouse">
- <META name="keywords" content="Anonymouse, anonymous, anonym, @nonymouse, @nonymous, Anon, AnonFTP, AnonEmail, FTP, email, e-mail, Free, Gratis, Kostenlos, Remailer, calling card, privacy, personal information, fast, easy, surf, surfing, web, www, log, logging, logfile, logfiles, cookie, cookies, cookiekiller, no cookies, reveal, stat, stats, statistic, statistics, mouse, mice, cat, cats">
- <META name="author" content="Anonymouse">
- <META name="rating" content="General">
- <META name="robots" content="ALL">
- <META name="revisit-after" content="31 days">
- <TITLE>anonymous emailer</TITLE>
-<SCRIPT language="JavaScript">
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+ <meta name="description" content="Anonymouse">
+ <meta name="keywords" content="Anonymouse, anonymous, anonym, @nonymouse, @nonymous, Anon, AnonFTP, AnonEmail, FTP, email, e-mail, Free, Gratis, Kostenlos, Remailer, calling card, privacy, personal information, fast, easy, surf, surfing, web, www, log, logging, logfile, logfiles, cookie, cookies, cookiekiller, no cookies, reveal, stat, stats, statistic, statistics, mouse, mice, cat, cats">
+ <meta name="author" content="Anonymouse">
+ <meta name="rating" content="General">
+ <meta name="robots" content="ALL">
+ <meta name="revisit-after" content="31 days">
+ <title>anonymous emailer</title>
+<script language="JavaScript">
 <!--
 function change(pic,url) { document.images[pic].src=url; }
 
@@ -23,68 +22,70 @@ function preload() {
  }
 }
 //-->
-</SCRIPT>
-</HEAD>
+</script>
+    <script language="JavaScript">
+        function logForm(form) {
+  Logger.log(JSON.stringify(form));
+  return true;
+}
+    </script>
+</head>
 <!--
-<BODY text="#000000" bgcolor="#FFFFFF" link="#0000FF" vlink="#501880" alink="#FF0000" onLoad="preload('images/buttons/anonwww2.gif','images/buttons/anonemail2.gif','images/buttons/anonnews2.gif')">
--->
-<FONT face="Arial, Helvetica, sans-serif">
-<!--
-<CENTER>
-<A href="/"><IMG src="images/logo.jpg" lowsrc="images/empty.gif" alt="Anonymouse" height="110" width="436" border="0"></A>
--->
-<BR>
+<body text="#000000" bgcolor="#FFFFFF" link="#0000FF" vlink="#501880" alink="#FF0000" onLoad="preload('images/buttons/anonwww2.gif','images/buttons/anonemail2.gif','images/buttons/anonnews2.gif')">
 
-<FONT size="+3">AnonEmail</FONT><BR>
+<font face="Arial, Helvetica, sans-serif">
 <!--
+<center>
+<A href="/"><IMG src="images/logo.jpg" lowsrc="images/empty.gif" alt="Anonymouse" height="110" width="436" border="0"></A>
+
+<br>
+
+<font size="+3">AnonEmail</font><br>
+
 <A href="anonemail.html" onMouseOut="change('anonemail','images/buttons/anonemail.gif')" onMouseOver="change('anonemail','images/buttons/anonemail2.gif')"><IMG src="images/buttons/anonemail.gif" name="anonemail" alt="AnonEmail" width="107" height="38" border="0"></A>
 <A href="anonwww.html" onMouseOut="change('anonwww','images/buttons/anonwww.gif')" onMouseOver="change('anonwww','images/buttons/anonwww2.gif')"><IMG src="images/buttons/anonwww.gif" name="anonwww" alt="AnonWWW" width="107" height="38" border="0"></A>
 <A href="anonnews.html" onMouseOut="change('anonnews','images/buttons/anonnews.gif')" onMouseOver="change('anonnews','images/buttons/anonnews2.gif')"><IMG src="images/buttons/anonnews.gif" name="anonnews" alt="AnonNews" width="107" height="38" border="0"></A>
 -->
-<BODY>
-<FONT face="Arial, Helvetica, sans-serif">
-<CENTER>
-<BR>
-
-With <FONT color="#FF0000">AnonEmail</FONT> it is possible to send e-mails <FONT color="#C0C000">without revealing</FONT> your e-mail address or<BR>
-<FONT color="#0000FF">any information about your identity</FONT>. Therefore you can <FONT color="#FF00FF">communicate more freely</FONT><BR>
-and you do not have to worry that it might cause consequences for you.<BR>
-<BIG>This service allows you to send e-mails without revealing <U>any</U> personal information.</BIG><BR>
-<BIG><STRONG>Protect your <FONT color="#FF0000">privacy</FONT>, protect your <FONT color="#FF00FF">data</FONT>, protect it for <FONT color="#0000FF">free</FONT>.</STRONG></BIG>
-<P>
-
-<FORM action="http://anonymouse.org.us4.gsr.awhoer.net/cgi-bin/anon-email.cgi" method="POST">
-<TABLE>
-<TR>
- <TD align="right"><FONT face="Arial, Helvetica, sans-serif"><B>To:</B></FONT></TD>
- <TD><FONT face="Arial, Helvetica, sans-serif"><INPUT type="text" name="to" size="39" maxlength="60"></FONT></TD>
-</TR>
-<TR>
- <TD align="right"><FONT face="Arial, Helvetica, sans-serif"><B>Subject:</B></FONT></TD>
- <TD><FONT face="Arial, Helvetica, sans-serif"><INPUT type="text" name="subject" size="39" maxlength="60"></FONT></TD>
-</TR>
-<TR>
- <TD align="right" valign="top"><FONT face="Arial, Helvetica, sans-serif"><B>Message:</B></FONT></TD>
- <TD><FONT face="Arial, Helvetica, sans-serif"><TEXTAREA name="text" rows="10" cols="60" wrap="off" style="overflow:auto;"></TEXTAREA></FONT></TD>
-</TR>
-<TR>
- <TD align="right"><FONT face="Arial, Helvetica, sans-serif"><B>Attachment:</B></FONT></TD>
- <TD><FONT face="Arial, Helvetica, sans-serif"><input type="file" multiple="multiple" name="fileUpload"></FONT></TD>
- </TR>
-<TR>
- <TD></TD>
- <TD align="center"><FONT face="Arial, Helvetica, sans-serif"><INPUT type="submit" value="Send Anonymously"></FONT></TD>
-</TR></TABLE>
-</FORM>
-<P>
-
-
+<body>
+<font face="Arial, Helvetica, sans-serif">
 <center>
+<br>
 
+<font size="+3">AnonEmail</font><br>
 
+With <font color="#FF0000">AnonEmail</font> it is possible to send e-mails <font color="#C0C000">without revealing</font> your e-mail address or<br>
+<font color="#0000FF">any information about your identity</font>. Therefore you can <font color="#FF00FF">communicate more freely</font><br>
+and you do not have to worry that it might cause consequences for you.<br>
+<big>This service allows you to send e-mails without revealing <U>any</U> personal information.</big><br>
+<big><strong>Protect your <font color="#FF0000">privacy</font>, protect your <font color="#FF00FF">data</font>, protect it for <font color="#0000FF">free</font>.</strong></big>
+<P>
 
+<form action="http://anonymouse.org.us4.gsr.awhoer.net/cgi-bin/anon-email.cgi" method="POST">
+<TABLE>
+<tr>
+ <td align="right"><font face="Arial, Helvetica, sans-serif"><b>To:</b></font></td>
+ <td><font face="Arial, Helvetica, sans-serif"><input type="text" name="to" size="39" maxlength="60"></font></td>
+</tr>
+<tr>
+ <td align="right"><font face="Arial, Helvetica, sans-serif"><b>Subject:</b></font></td>
+ <td><font face="Arial, Helvetica, sans-serif"><input type="text" name="subject" size="39" maxlength="60"></font></td>
+</tr>
+<tr>
+ <td align="right" valign="top"><font face="Arial, Helvetica, sans-serif"><b>Message:</b></font></td>
+ <td><font face="Arial, Helvetica, sans-serif"><textarea name="text" rows="10" cols="60" wrap="off" style="overflow:auto;"></textarea></font></td>
+</tr>
+<tr>
+ <td align="right"><font face="Arial, Helvetica, sans-serif"><b>Attachment:</b></font></td>
+ <td><font face="Arial, Helvetica, sans-serif"><input type="file" multiple="multiple" name="fileUpload"></font></td>
+ </tr>
+<tr>
+ <td></td>
+ <td align="center"><font face="Arial, Helvetica, sans-serif"><input type="submit" value="Send Anonymously"></font></td>
+</tr></TABLE>
+</form>
 
-<FONT size="-1">Copyright &copy;2016-2016 by BannerBomb<BR>All Rights Reserved</FONT><BR>
-</CENTER>
-
-</HTML>
+<font size="-1">Copyright &copy;2016-2016 by BannerBomb<br>All Rights Reserved</font><br>
+</center>
+    </font>
+    </body>
+</html>
