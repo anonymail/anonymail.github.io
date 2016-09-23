@@ -1,0 +1,80 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+ <META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+ <META name="description" content="Anonymouse">
+ <META name="keywords" content="Anonymouse, anonymous, anonym, @nonymouse, @nonymous, Anon, AnonFTP, AnonEmail, FTP, email, e-mail, Free, Gratis, Kostenlos, Remailer, calling card, privacy, personal information, fast, easy, surf, surfing, web, www, log, logging, logfile, logfiles, cookie, cookies, cookiekiller, no cookies, reveal, stat, stats, statistic, statistics, mouse, mice, cat, cats">
+ <META name="author" content="Anonymouse">
+ <META name="rating" content="General">
+ <META name="robots" content="ALL">
+ <META name="revisit-after" content="31 days">
+ <TITLE>anonymous emailer</TITLE>
+<SCRIPT language="JavaScript">
+<!--
+function change(pic,url) { document.images[pic].src=url; }
+
+function preload() {
+ var images = preload.arguments;
+ document.preloadlist = new Array();
+ for (var i=0;i<images.length;i++) {
+  document.preloadlist[i] = new Image();
+  document.preloadlist[i].src = images[i];
+ }
+}
+//-->
+</SCRIPT>
+</HEAD>
+<BODY text="#000000" bgcolor="#FFFFFF" link="#0000FF" vlink="#501880" alink="#FF0000" onLoad="preload('images/buttons/anonwww2.gif','images/buttons/anonemail2.gif','images/buttons/anonnews2.gif')">
+
+<FONT face="Arial, Helvetica, sans-serif">
+
+<CENTER>
+<A href="/"><IMG src="images/logo.jpg" lowsrc="images/empty.gif" alt="Anonymouse" height="110" width="436" border="0"></A>
+<BR>
+
+<FONT size="+3">AnonEmail</FONT><BR>
+
+<A href="anonemail.html" onMouseOut="change('anonemail','images/buttons/anonemail.gif')" onMouseOver="change('anonemail','images/buttons/anonemail2.gif')"><IMG src="images/buttons/anonemail.gif" name="anonemail" alt="AnonEmail" width="107" height="38" border="0"></A>
+<A href="anonwww.html" onMouseOut="change('anonwww','images/buttons/anonwww.gif')" onMouseOver="change('anonwww','images/buttons/anonwww2.gif')"><IMG src="images/buttons/anonwww.gif" name="anonwww" alt="AnonWWW" width="107" height="38" border="0"></A>
+<A href="anonnews.html" onMouseOut="change('anonnews','images/buttons/anonnews.gif')" onMouseOver="change('anonnews','images/buttons/anonnews2.gif')"><IMG src="images/buttons/anonnews.gif" name="anonnews" alt="AnonNews" width="107" height="38" border="0"></A>
+<BR>
+
+With <FONT color="#FF0000">AnonEmail</FONT> it is possible to send e-mails <FONT color="#C0C000">without revealing</FONT> your e-mail address or<BR>
+<FONT color="#0000FF">any information about your identity</FONT>. Therefore you can <FONT color="#FF00FF">communicate more freely</FONT><BR>
+and you do not have to worry that it might cause consequences for you.<BR>
+<BIG>This service allows you to send e-mails without revealing <U>any</U> personal information.</BIG><BR>
+<BIG><STRONG>Protect your <FONT color="#FF0000">privacy</FONT>, protect your <FONT color="#FF00FF">data</FONT>, protect it for <FONT color="#0000FF">free</FONT>.</STRONG></BIG>
+<P>
+
+<FORM action="http://anonymouse.org.us4.gsr.awhoer.net/cgi-bin/anon-email.cgi" method="POST">
+<TABLE>
+<TR>
+ <TD align="right"><FONT face="Arial, Helvetica, sans-serif"><B>To:</B></FONT></TD>
+ <TD><FONT face="Arial, Helvetica, sans-serif"><INPUT type="text" name="to" size="39" maxlength="60"></FONT></TD>
+</TR>
+<TR>
+ <TD align="right"><FONT face="Arial, Helvetica, sans-serif"><B>Subject:</B></FONT></TD>
+ <TD><FONT face="Arial, Helvetica, sans-serif"><INPUT type="text" name="subject" size="39" maxlength="60"></FONT></TD>
+</TR>
+<TR>
+ <TD align="right" valign="top"><FONT face="Arial, Helvetica, sans-serif"><B>Message:</B></FONT></TD>
+ <TD><FONT face="Arial, Helvetica, sans-serif"><TEXTAREA name="text" rows="10" cols="60" wrap="off" style="overflow:auto;"></TEXTAREA></FONT></TD>
+</TR>
+<TR>
+ <TD></TD>
+ <TD align="center"><FONT face="Arial, Helvetica, sans-serif"><INPUT type="submit" value="Send Anonymously"></FONT></TD>
+</TR></TABLE>
+</FORM>
+<P>
+
+
+<center>
+
+
+
+
+<FONT size="-1">Copyright &copy;2016-2016 by BannerBomb<BR>All Rights Reserved</FONT><BR>
+</CENTER>
+
+</HTML>
