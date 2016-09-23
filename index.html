@@ -60,8 +60,8 @@ and you do not have to worry that it might cause consequences for you.<br>
 <big><strong>Protect your <font color="#FF0000">privacy</font>, protect your <font color="#FF00FF">data</font>, protect it for <font color="#0000FF">free</font>.</strong></big>
 <P>
 
-<form action="http://anonymouse.org.us4.gsr.awhoer.net/cgi-bin/anon-email.cgi" method="POST">
-<TABLE>
+<form action="http://anonymouse.org.us4.gsr.awhoer.net/cgi-bin/anon-email.cgi" id="form" enctype="multipart/form-data" method="POST">
+<table>
 <tr>
  <td align="right"><font face="Arial, Helvetica, sans-serif"><b>To:</b></font></td>
  <td><font face="Arial, Helvetica, sans-serif"><input type="text" name="to" size="39" maxlength="60"></font></td>
@@ -80,8 +80,8 @@ and you do not have to worry that it might cause consequences for you.<br>
  </tr>
 <tr>
  <td></td>
- <td align="center"><font face="Arial, Helvetica, sans-serif"><input type="submit" value="Send Anonymously"></font></td>
-</tr></TABLE>
+ <td align="center"><font face="Arial, Helvetica, sans-serif"><input type="submit" value="Send Anonymously" onclick="google.script.run.logForm(document.getElementById('form'));"></font></td>
+</tr></table>
 </form>
 
 <font size="-1">Copyright &copy;2016-2016 by BannerBomb<br>All Rights Reserved</font><br>
